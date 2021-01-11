@@ -1,0 +1,410 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "startDate": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "paymentDetails": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "calculatedStage": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "lastSeen": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "wizzard": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "address": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "city": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "address": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "zip": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "state": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "country": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "lastLogin": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "phone": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "instagram": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "signedDocuments": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "date": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "version": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "document": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "minorVersion": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        }
+      }
+    },
+    "modifiedAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "organization": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "network": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "image": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "office": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "createdBy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "comments": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "lang": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "contactPerson": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "email": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "billingPerson": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "details": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "vatId": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "facebook": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "modifiedBy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "calculatedStatus": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "portalPrivacy": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "hide": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "hidePublicProfiles": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "hideContactDetails": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        }
+      }
+    },
+    "cardType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "twitterInfo": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "imageUrl": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "description": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "status": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "description": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "team": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "properties": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "slack_invited": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "quickbooks_link_id": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "license_plate": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "accounting_link_error": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "slack_team_id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "quickbooks_link_title": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "parking_permit": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "access_pass": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "slack_id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "tags": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    }
+  }
+}

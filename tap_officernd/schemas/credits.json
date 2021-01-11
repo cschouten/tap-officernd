@@ -1,0 +1,155 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "membership": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "createdBy": {
+      "type": [
+        "null",
+        "object"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "organization": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "bookings": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "occurrenceDate": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "booking": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "count": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        }
+      }
+    },
+    "validFrom": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "validTo": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "startDate": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "count": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "intervalLength": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "parent": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "generatedUntil": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "endDate": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "used": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "team": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "status": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "member": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "rates": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    }
+  }
+}

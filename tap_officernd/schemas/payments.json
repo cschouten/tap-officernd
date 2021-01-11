@@ -1,0 +1,891 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "isDraft": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "isVoided": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "comments": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "method": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "periodStart": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "pendingAmount": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "processingFeeLine": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "account": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "discount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "fee": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "description": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "plan": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "unitPrice": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "quantity": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "taxRate": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "percent": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "addOns": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "vatPercent": {
+          "type": [
+            "null",
+            "number"
+          ]
+        }
+      }
+    },
+    "member": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "currencyConversionRate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "isSent": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "baseTotal": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "isOverdue": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "allocations": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "createdAt": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "accounting": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "error": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "lastSync": {
+              "type": [
+                "null",
+                "string"
+              ],
+              "format": "date-time"
+            },
+            "provider": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "providerId": {
+              "type": [
+                "null",
+                "integer"
+              ]
+            }
+          }
+        },
+        "target": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "amount": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "_id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "documentType": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "amount": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "number": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "discount": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "discountAmount": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "canEdit": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "status": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "invoiceLines": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "membership": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "plan": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "vatAmount": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "baseUnitPrice": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "price": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "subtotal": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "vatPercent": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "office": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "baseTotal": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "unitPrice": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "quantity": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "fee": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "endDate": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "startDate": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "total": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "account": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "discountAmount": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "taxRate": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "discount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "description": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "vatAmounts": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "total": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "taxRate": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "percent": {
+          "type": [
+            "null",
+            "number"
+          ]
+        }
+      }
+    },
+    "charges": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "currency": {
+           "type": [
+            "null",
+            "string"
+          ]
+        },
+        "accounting": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "provider": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "error": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "lastSync": {
+              "type": [
+                "null",
+                "string"
+              ],
+              "format": "date-time"
+            },
+            "providerId": {
+              "type": [
+                "null",
+                "integer"
+              ]
+            }
+          }
+        },
+        "modifiedBy": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "createdAt": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "createdBy": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "sourcePaymentId": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "date": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "account": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "integration": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "providerError": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "providerChargeId": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
+          }
+        },
+        "source": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "amount": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "modifiedAt": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "reference": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "status": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "_id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "modifiedAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "linkedDocuments": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "modifiedBy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "totalAmount": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "createdBy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "canDelete": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "periodEnd": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "subtotal": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "lines": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "plan": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "membership": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "discount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "account": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "unitPrice": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "quantity": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "vatPercent": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "office": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "description": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "endDate": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "fee": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "unitDiscount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "startDate": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "taxRate": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "addOns": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      }
+    },
+    "currency": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "team": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "paidAmount": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "allocatedAmount": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "office": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "date": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "isFailed": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "isPaid": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "accounting": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "hasLockedCharges": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "noSync": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "providerId": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "provider": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "lastSync": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "error": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "payableAmount": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "reference": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "isPersonal": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "documentType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "dueDate": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "taxType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "organization": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "templates": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "canVoid": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "source": {
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  }
+}

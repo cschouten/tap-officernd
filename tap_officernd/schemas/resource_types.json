@@ -1,0 +1,92 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "primary": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "isSystem": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "organization": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "target": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "canBook": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "canAssign": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "color": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "title": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "hierarchicalResourcesEnabled": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "icon": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "checkinMode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "bookingMode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  }
+}

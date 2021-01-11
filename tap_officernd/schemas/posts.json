@@ -1,0 +1,107 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "event": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "locations": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "image": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "createdBy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "member": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "image": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "_id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "title": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "organization": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "description": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "url": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  }
+}

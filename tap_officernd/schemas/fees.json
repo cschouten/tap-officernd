@@ -1,0 +1,193 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "isLate": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "plan": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "markUp": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "modifiedBy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "modifiedAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "discountedPrice": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "office": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "price": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "billInAdvance": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "member": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "refundable": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "organization": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "discountAmount": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "isPersonal": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "status": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "date": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "quantity": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "basePrice": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "calculatedDiscountAmount": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "team": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "invoice": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "_id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "creditNote": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "status": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "createdBy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "valueCredits": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "organization": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "booking": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "office": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "team": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "member": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "end": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "start": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "visitor": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  }
+}

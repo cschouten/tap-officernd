@@ -1,0 +1,83 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "createdAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "office": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "start": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "end": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "member": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "team": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "createdBy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "organization": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "devices": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    }
+  }
+}

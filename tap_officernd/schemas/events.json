@@ -1,0 +1,120 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "organization": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "end": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "image": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "status": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "title": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "office": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "reservations": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "no": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "interested": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "yes": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        }
+      }
+    },
+    "where": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "team": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "start": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "timezone": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "description": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "links": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    }
+  }
+}

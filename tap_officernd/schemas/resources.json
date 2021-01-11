@@ -1,0 +1,277 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "availableFrom": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "area": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "office": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "parent": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "timezone": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "move": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "organization": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "_id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "endDate": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "startDate": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "membership": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "resource": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "rate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "order": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "target": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "organization": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "size": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "status": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "color": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "targetPlan": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "image": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "number": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "price": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "availability": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "endDate": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "startDate": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        }
+      }
+    },
+    "createdBy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "description": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "access": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "plans": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "teams": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "public": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "full": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        }
+      }
+    },
+    "room": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "deposit": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "parents": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    }
+  }
+}

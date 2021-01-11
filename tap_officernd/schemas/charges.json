@@ -1,0 +1,154 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "currency": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "accounting": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "provider": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "error": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "lastSync": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "providerId": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        }
+      }
+    },
+    "modifiedBy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "modifiedAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "sourcePaymentId": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "payment": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "date": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "createdBy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "account": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "reference": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "status": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "integration": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "providerError": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "providerChargeId": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "amount": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "source": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "office": {
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  }
+}

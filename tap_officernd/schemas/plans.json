@@ -1,0 +1,376 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "depositPercentEnabled": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "image": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "approval": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "account": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "description": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "code": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "rates": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "interval": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "isOffRate": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "_id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "price": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "intervalQuantity": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        }
+      }
+    },
+    "depositPercent": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "amenities": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "prorate": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "markUp": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "bookingPolicy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "setupFees": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "discounts": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "calcellationPolicy": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "_id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "minimumPeriod": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        }
+      }
+    },
+    "extras": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "locations": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "forNonMembers": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "forMembers": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "order": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "intervalLength": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "credits": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "count": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "validFor": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "oneOffPlans": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "resourceTypes": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "rates": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "forTeamMembers": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "public": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "price": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "intervalCount": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "legalDocuments": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "deposit": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "isRate": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "addOns": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "price": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "_id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "deposit": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        }
+      }
+    },
+    "useValueCredits": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    }
+  }
+}

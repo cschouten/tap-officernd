@@ -1,0 +1,126 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "zip": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "country": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "state": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "city": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "public": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "description": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "code": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "order": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "timezone": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "address": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "image": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "slug": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "targetRevenuePerPeriod": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "target": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "endDate": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "startDate": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        }
+      }
+    },
+    "isOpen": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    }
+  }
+}

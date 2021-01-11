@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    tap-officernd=tap_officernd:main
+    
